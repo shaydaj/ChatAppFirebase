@@ -1,0 +1,92 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.chatapp"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/Users/shayda/StudioProjects/ChatApp/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->/Users/shayda/StudioProjects/ChatApp/app/src/main/AndroidManifest.xml
+10
+11    <application
+11-->/Users/shayda/StudioProjects/ChatApp/app/src/main/AndroidManifest.xml:5:5-30:19
+12        android:allowBackup="true"
+12-->/Users/shayda/StudioProjects/ChatApp/app/src/main/AndroidManifest.xml:6:9-35
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.8.0] /Users/shayda/.gradle/caches/transforms-3/08bdc8530ed8c4237b10a7b6c351e326/transformed/core-1.8.0/AndroidManifest.xml:24:18-86
+14        android:debuggable="true"
+15        android:icon="@mipmap/ic_launcher"
+15-->/Users/shayda/StudioProjects/ChatApp/app/src/main/AndroidManifest.xml:7:9-43
+16        android:label="@string/app_name"
+16-->/Users/shayda/StudioProjects/ChatApp/app/src/main/AndroidManifest.xml:8:9-41
+17        android:roundIcon="@mipmap/ic_launcher_round"
+17-->/Users/shayda/StudioProjects/ChatApp/app/src/main/AndroidManifest.xml:9:9-54
+18        android:supportsRtl="true"
+18-->/Users/shayda/StudioProjects/ChatApp/app/src/main/AndroidManifest.xml:10:9-35
+19        android:testOnly="true"
+20        android:theme="@style/Theme.ChatApp" >
+20-->/Users/shayda/StudioProjects/ChatApp/app/src/main/AndroidManifest.xml:11:9-45
+21        <activity
+21-->/Users/shayda/StudioProjects/ChatApp/app/src/main/AndroidManifest.xml:12:9-14:40
+22            android:name="com.example.chatapp.Register"
+22-->/Users/shayda/StudioProjects/ChatApp/app/src/main/AndroidManifest.xml:13:13-37
+23            android:exported="false" />
+23-->/Users/shayda/StudioProjects/ChatApp/app/src/main/AndroidManifest.xml:14:13-37
+24        <activity
+24-->/Users/shayda/StudioProjects/ChatApp/app/src/main/AndroidManifest.xml:15:9-17:40
+25            android:name="com.example.chatapp.Login"
+25-->/Users/shayda/StudioProjects/ChatApp/app/src/main/AndroidManifest.xml:16:13-34
+26            android:exported="false" />
+26-->/Users/shayda/StudioProjects/ChatApp/app/src/main/AndroidManifest.xml:17:13-37
+27
+28        <intent-filter>
+28-->/Users/shayda/StudioProjects/ChatApp/app/src/main/AndroidManifest.xml:18:13-22:29
+29            <action android:name="android.intent.action.MAIN" />
+29-->/Users/shayda/StudioProjects/ChatApp/app/src/main/AndroidManifest.xml:19:17-69
+29-->/Users/shayda/StudioProjects/ChatApp/app/src/main/AndroidManifest.xml:19:25-66
+30
+31            <category android:name="android.intent.category.LAUNCHER" />
+31-->/Users/shayda/StudioProjects/ChatApp/app/src/main/AndroidManifest.xml:21:17-77
+31-->/Users/shayda/StudioProjects/ChatApp/app/src/main/AndroidManifest.xml:21:27-74
+32        </intent-filter>
+33
+34        <activity
+34-->/Users/shayda/StudioProjects/ChatApp/app/src/main/AndroidManifest.xml:23:9-25:40
+35            android:name="com.example.chatapp.MainActivity2"
+35-->/Users/shayda/StudioProjects/ChatApp/app/src/main/AndroidManifest.xml:24:13-42
+36            android:exported="false" />
+36-->/Users/shayda/StudioProjects/ChatApp/app/src/main/AndroidManifest.xml:25:13-37
+37        <activity
+37-->/Users/shayda/StudioProjects/ChatApp/app/src/main/AndroidManifest.xml:26:9-29:20
+38            android:name="com.example.chatapp.MainActivity"
+38-->/Users/shayda/StudioProjects/ChatApp/app/src/main/AndroidManifest.xml:27:13-41
+39            android:exported="true" >
+39-->/Users/shayda/StudioProjects/ChatApp/app/src/main/AndroidManifest.xml:28:13-36
+40        </activity>
+41
+42        <provider
+42-->[androidx.emoji2:emoji2:1.2.0] /Users/shayda/.gradle/caches/transforms-3/7694c501b0f19cc4fc1322cdba651a44/transformed/emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+43            android:name="androidx.startup.InitializationProvider"
+43-->[androidx.emoji2:emoji2:1.2.0] /Users/shayda/.gradle/caches/transforms-3/7694c501b0f19cc4fc1322cdba651a44/transformed/emoji2-1.2.0/AndroidManifest.xml:25:13-67
+44            android:authorities="com.example.chatapp.androidx-startup"
+44-->[androidx.emoji2:emoji2:1.2.0] /Users/shayda/.gradle/caches/transforms-3/7694c501b0f19cc4fc1322cdba651a44/transformed/emoji2-1.2.0/AndroidManifest.xml:26:13-68
+45            android:exported="false" >
+45-->[androidx.emoji2:emoji2:1.2.0] /Users/shayda/.gradle/caches/transforms-3/7694c501b0f19cc4fc1322cdba651a44/transformed/emoji2-1.2.0/AndroidManifest.xml:27:13-37
+46            <meta-data
+46-->[androidx.emoji2:emoji2:1.2.0] /Users/shayda/.gradle/caches/transforms-3/7694c501b0f19cc4fc1322cdba651a44/transformed/emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+47                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+47-->[androidx.emoji2:emoji2:1.2.0] /Users/shayda/.gradle/caches/transforms-3/7694c501b0f19cc4fc1322cdba651a44/transformed/emoji2-1.2.0/AndroidManifest.xml:30:17-75
+48                android:value="androidx.startup" />
+48-->[androidx.emoji2:emoji2:1.2.0] /Users/shayda/.gradle/caches/transforms-3/7694c501b0f19cc4fc1322cdba651a44/transformed/emoji2-1.2.0/AndroidManifest.xml:31:17-49
+49            <meta-data
+49-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/shayda/.gradle/caches/transforms-3/4ddb24c4e296784fea9567e6347ef9b2/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
+50                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+50-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/shayda/.gradle/caches/transforms-3/4ddb24c4e296784fea9567e6347ef9b2/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
+51                android:value="androidx.startup" />
+51-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/shayda/.gradle/caches/transforms-3/4ddb24c4e296784fea9567e6347ef9b2/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
+52        </provider>
+53    </application>
+54
+55</manifest>
